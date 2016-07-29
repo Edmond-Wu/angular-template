@@ -72,6 +72,11 @@ h4, h5:hover {
     display: none;
 }
 
+.profpic {
+    border-radius: 100% !important;
+    max-width: 180px;
+}
+
 .fade {
     position: absolute;
     top: auto;
@@ -80,8 +85,8 @@ h4, h5:hover {
 }
 
 .fade.ng-enter, .fade.ng-leave {
-    -webkit-transition: all .7s ease;
-    transition: all 1s ease;
+    -webkit-transition: all 1.2s ease;
+    transition: all 1.2s ease;
 }
 
 .fade.ng-enter {
