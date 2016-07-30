@@ -4,7 +4,6 @@ var app = angular.module("myApp", ['ngRoute', 'ngAnimate']);
 
 app.config(function($routeProvider) {
     $routeProvider
-
         .when("/main", {
             templateUrl: "views/main.html",
             controller: "mainCtrl"
@@ -28,6 +27,20 @@ app.config(function($routeProvider) {
         .otherwise('/main');
 });
 
+app.controller("mainCtrl", function($scope) {});
+
+app.controller("aboutCtrl", function($scope) {});
+
+app.controller("projectsCtrl", function($scope) {});
+
+app.controller("cs170Ctrl", function($scope) {});
+
+app.controller("contactCtrl", function($scope) {});
+
+
+/**
+ * Directive for slide toggle functionality
+ */
 app.directive('sliderToggle', function() {
     return {
         restrict: 'AE',
@@ -59,7 +72,7 @@ app.directive('slider', function () {
 
             return function postLink(scope, element, attrs) {
                 // default properties
-                attrs.duration = (!attrs.duration) ? '.7s' : attrs.duration;
+                attrs.duration = (!attrs.duration) ? '.5s' : attrs.duration;
                 attrs.easing = (!attrs.easing) ? 'ease-in-out' : attrs.easing;
                 element.css({
                     'overflow': 'hidden',
@@ -72,24 +85,3 @@ app.directive('slider', function () {
         }
     };
 });
-
-app.controller("mainCtrl", function($scope) {
-    // $scope.message = "main";
-});
-
-app.controller("aboutCtrl", function($scope) {
-    // $scope.message = "about";
-});
-
-app.controller("projectsCtrl", function($scope) {
-    // $scope.message = "projects";
-});
-
-app.controller("cs170Ctrl", function($scope) {
-    // $scope.message = "cs170";
-});
-
-app.controller("contactCtrl", function($scope) {
-    // $scope.message = "contact";
-});
-
