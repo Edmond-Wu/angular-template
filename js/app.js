@@ -72,7 +72,7 @@ app.directive('slider', function () {
 
             return function postLink(scope, element, attrs) {
                 // default properties
-                attrs.duration = (!attrs.duration) ? '.5s' : attrs.duration;
+                attrs.duration = (!attrs.duration) ? '.6s' : attrs.duration;
                 attrs.easing = (!attrs.easing) ? 'ease-in-out' : attrs.easing;
                 element.css({
                     'overflow': 'hidden',

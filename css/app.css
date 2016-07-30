@@ -16,16 +16,24 @@ body, h1, h2, h3, h4, h5, h6, p {
     font-family: Montserrat, sans-serif !important;
 }
 
-body, .top-bar, .menu {
+ul {
+    list-style-type: none;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+body, table, tr, td, .top-bar, .menu {
     background-color: black !important;
+}
+
+table, tr, td {
+    border: 1px solid black !important;
 }
 
 body, a:link, a:visited, h4:hover, .no-hover:hover, .click:hover, .about-header:hover {
     color: white;
-}
-
-ul {
-    list-style-type: none;
 }
 
 a:hover, .about-header, .label-170 {
@@ -55,8 +63,8 @@ h4, h5:hover {
     padding-right: 1em !important;
 }
 
-.name {
-    font-size: 1.5em;
+.label-170 {
+    font-size: 1.1em;
 }
 
 .larger {
@@ -68,8 +76,16 @@ h4, h5:hover {
     font-size: 1.25em;
 }
 
+.name {
+    font-size: 1.5em;
+}
+
 .hidden {
     display: none;
+}
+
+.spaces {
+    white-space: pre-wrap;
 }
 
 .profpic {
@@ -85,8 +101,8 @@ h4, h5:hover {
 }
 
 .fade.ng-enter, .fade.ng-leave {
-    -webkit-transition: all 1.2s ease;
-    transition: all 1.2s ease;
+    -webkit-transition: all 1.3s ease;
+    transition: all 1.3s ease;
 }
 
 .fade.ng-enter {
