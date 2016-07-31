@@ -12,14 +12,6 @@ app.config(function($routeProvider) {
             templateUrl: 'views/about.html',
             controller: 'aboutCtrl'
         })
-        .when('/projects', {
-            templateUrl: 'views/projects.html',
-            controller: 'projectsCtrl'
-        })
-        .when('/cs170', {
-            templateUrl: 'views/cs170.html',
-            controller: 'cs170Ctrl'
-        })
         .when('/contact', {
             templateUrl: 'views/contact.html',
             controller: 'contactCtrl'
@@ -30,10 +22,6 @@ app.config(function($routeProvider) {
 app.controller("mainCtrl", function($scope) {});
 
 app.controller("aboutCtrl", function($scope) {});
-
-app.controller("projectsCtrl", function($scope) {});
-
-app.controller("cs170Ctrl", function($scope) {});
 
 app.controller("contactCtrl", function($scope) {});
 
