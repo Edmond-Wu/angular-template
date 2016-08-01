@@ -12,87 +12,6 @@
     }
 }
 
-body, h1, h2, h3, h4, h5, h6, p {
-    font-family: Montserrat, sans-serif !important;
-}
-
-ul {
-    list-style-type: none;
-}
-
-.underline {
-    text-decoration: underline;
-}
-
-body, table, tr, td, .top-bar, .menu {
-    background-color: black !important;
-}
-
-table, tr, td {
-    border: 1px solid black !important;
-}
-
-body, a:link, a:visited, h4:hover, .no-hover:hover, .click:hover, .about-header:hover {
-    color: white;
-}
-
-a:hover, .about-header, .label-170 {
-    color: #00aced;
-}
-
-.button {
-    border-radius: 5px;
-    padding: 6px !important;
-    background-color: #00aced;
-    font-size: 1em;
-}
-
-h4, h5:hover {
-    color: #3bc9ff;
-}
-
-.two-brs {
-    padding-bottom: 2em;
-}
-
-.one-br {
-    padding-bottom: 1em;
-}
-
-.pad-right {
-    padding-right: 1em !important;
-}
-
-.label-170 {
-    font-size: 1.1em;
-}
-
-.larger {
-    font-size: 1.15em;
-}
-
-.nav {
-    padding-top: .125em;
-    font-size: 1.25em;
-}
-
-.name {
-    font-size: 1.5em;
-}
-
-.hidden {
-    display: none;
-}
-
-.spaces {
-    white-space: pre-wrap;
-}
-
-.profpic {
-    border-radius: 100% !important;
-    max-width: 180px;
-}
-
 .fade {
     position: absolute;
     top: auto;
@@ -129,4 +48,8 @@ h4, h5:hover {
     animation: type 5s steps(50, end);
     font-family: inherit;
     display: inline-block;
+}
+
+.hidden {
+    display: none;
 }
