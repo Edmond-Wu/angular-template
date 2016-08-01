@@ -49,3 +49,7 @@
     font-family: inherit;
     display: inline-block;
 }
+
+.hidden {
+    display: none;
+}
