@@ -1,2 +1,8 @@
 # angular-template
-AngularJS template for websites with a "single-page" design. Template uses Materialize CSS as a default CSS template, and features mobile support.
+AngularJS template for static websites with a "single-page" design.
+
+# Features
+Angular routing, MDI icons, Materialize CSS, with a mobile navigation bar.
+
+# Dependencies
+Install dependencies via the package.json file with NPM (Node Package Manager). Install the dev dependencies as well if you want to use Gulp, which is used to minify and bundle css/js files.

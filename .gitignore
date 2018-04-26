@@ -1,2 +1,4 @@
 .idea
 angular-template.iml
+node_modules/
+package-lock.json
