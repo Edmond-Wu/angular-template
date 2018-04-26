@@ -1,4 +1,4 @@
-# angular-template
+# angularjs-template
 AngularJS template for static websites with a "single-page" design.
 
 # Features
