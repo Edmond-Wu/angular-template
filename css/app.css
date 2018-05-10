@@ -73,6 +73,10 @@ body {
   display: none;
 }
 
+.larger {
+  font-size: 1.2em !important;
+}
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
