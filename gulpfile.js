@@ -26,7 +26,7 @@ gulp.task('add-app-js', function() {
 gulp.task('pack-css', function() {
   return gulp.src([
     'node_modules/html5-boilerplate/dist/css/normalize.css', 'node_modules/html5-boilerplate/dist/css/main.css',
-    'node_modules/mdi/css/materialdesignicons.min.css', 'node_modules/materialize-css/dist/css/materialize.min.css',
+    'node_modules/@mdi/font/css/materialdesignicons.min.css', 'node_modules/materialize-css/dist/css/materialize.min.css',
     'css/app.css'])
     .pipe(concat('build.css'))
     .pipe(cleanCss())

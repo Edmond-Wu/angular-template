@@ -68,8 +68,9 @@ body {
   opacity: 0;
 }
 
-.hidden {
-  display: none;
+.flex {
+  display: flex;
+  align-items: center;
 }
 
 .larger {
