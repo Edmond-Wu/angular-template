@@ -17,7 +17,8 @@ gulp.task('pack-js', function() {
 
 /* adds on angular-related files separately */
 gulp.task('add-app-js', function() {
-  return gulp.src(['js/vendor.js', 'js/app.js', 'js/slider-directive.js'])
+  return gulp.src(['js/vendor.js', 'js/app.js', 'js/controllers/main-control.js',
+    'js/controllers/about-control.js', 'js/controllers/contact-control.js', 'js/slider-directive.js'])
     .pipe(concat('build.js'))
     .pipe(ngAnnotate())
     .pipe(uglify())

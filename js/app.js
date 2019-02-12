@@ -18,9 +18,3 @@ app.config(function($routeProvider) {
         })
         .otherwise('/main');
 });
-
-app.controller('mainCtrl', function($scope) {});
-
-app.controller('aboutCtrl', function($scope) {});
-
-app.controller('contactCtrl', function($scope) {});
